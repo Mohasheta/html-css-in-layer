@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+section{
+    padding: 100px 0px;
+    text-align: center;
+}
+header{
+    background-color: #87509C;
+    color:#fff;
+    width:100%;
+    float:left;
+    
+}
+/* Navigation */
+nav{
+    width: 100%;
+    float: left;
+    padding: 15px;
+
+}
+.logo-part{
+    width:50%;
+    float: left;
+}
+
+.menu-part{
+    width:50%;
+    float: left;
+
+}
+.menu-part ul{
+    margin: 0px 10px;
+    text-align: right;
+    
+     
+}
+.menu-part li{
+    display: inline-block;
+    margin: 0px 10px;
+    
+
+}
+.menu-part  a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.hero-writing-part{
+    width: 100%;
+    float:left;
+    text-align: center;
+
+}
+.hero-writing-part h1{
+    
+    font-size: 35px ;
+    width: 78%;
+    margin: 50px auto 20px;
+
+
+}
+.hero-writing-part a button{
+    background-color: orange;
+    color: #fff;
+    padding-left: 10px 20px;
+    border: none;
+    margin-bottom: 20px;
+
+
+}
+#services{
+    width:100%;
+    float:left;
+    background-color: #17C2A4;
+}
+.services-writing-part{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+
+}
+.services-writing-part h1{
+
+}
+.services-writing-part p{
+    
+
+}
+.underline{
+  border-top: 4px solid;
+  color:rgb(153, 148, 148) ; 
+  width: 5%;
+  margin:30px auto; 
+  padding: 5px;
+}
+.services-writing-part h2{
+
+}
+.services-box-part{
+    width: 100%;
+    float: left;
+}
+.services-box{
+    width: 25%;
+    float: left;
+    padding: 0px 5px;
+}
+.services-box img {
+    margin: 10px;
+  
+  }
+.services-box p{
+    text-align: center;
+    font-size: 17px ;
+    font-weight: 300;
+
+}
+.subheading{
+    
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-weight: 700px;
+
+}
+
+.pg{
+    text-transform: lowercase;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-weight: 600px; 
+}
+#team{
+    background-color: #E7F1F8;
+    width: 100%;
+    float: left;
+}
+.team-writing-part{
+    width: 100%;
+    float: left;
+
+}
+
+
+
+.team-writing-part h3{
+    width: 50%;
+    padding: 5px;
+    margin: auto;
+
+}
+.team-box-part{
+    width: 100%;
+    float: left;
+
+}
+.team-box{
+    width: 25%;
+    float: left;
+    text-align: center;
+
+}
+.team-box img{
+    max-width: 90%;
+
+}
+
+.heading{
+
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 0px;
+    font-weight: 700px;
+
+
+}
+.subheading{
+    
+    font-size: 10px;
+    letter-spacing: 0px;
+    font-weight: 700px;
+    color: rgb(63, 63, 245);
+
+}
+
+.pg{
+    text-transform: lowercase;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-weight: 600px; 
+}
+.team-social-icon i{
+    font-size:20px;
+    padding: 10px;
+    background: aqua;
+    border-radius: 50%;
+    color: #fff ;
+    width: 45px;
+    margin: 0px 5px;
+}
+#skills{
+    width:100%;
+    float: left;
+    background-color: #E0E9EE;
+}
+.skills-writing-part{
+    width:100%;
+    float: left;
+}
+.skills-writing-part h3{
+    width: 60%;
+    margin:auto;
+    padding: 40px;
+    
+} 
+.skills-box-part{
+    width: 100%;
+    float: left;
+}
+.skills-box{
+    width: 25%;
+    float: left;
+}
+.skills-box img{
+    width: 30%;
+    margin: 5px;
+}
+#portfolio{
+    width: 100%;
+    float: left;
+    background-color:  #FFDD99;
+}
+.portfolio-writing-part{
+    width: 100%;
+    float: left;
+}
+.heading{
+
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-weight: 700px;
+
+
+}
+.subheading{
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+    color: rgb(63, 63, 245);
+    margin: 10px;
+    width: 78%;
+
+}
+.portfolio-writing-part a button{
+    padding: 5px;
+    margin: auto;
+    
+}
+.b{
+   background-color:#E7F1F8 ;
+   color: black;
+   width: 4%;
+}
+.t{
+   background-color: rgb(178, 168, 168) ;
+}
+.o{
+   background-color: rgb(178,168,168) ;
+}
+.n{
+   background-color: rgb(178, 168, 168) ;
+}
+.portfolio-box-part{
+    width: 100%;
+    float: left;
+}
+.portfolio-box-1{
+    width: 50%;
+    float: left;
+}
+.portfolio-box-1 img{
+    width:50%;
+    margin: 5px;
+}
+.portfolio-box-2{
+    width: 50%;
+    float: left;
+}
+.portfolio-box-2 img{
+    width:50%;
+    margin: 5px;
+    
+
+}
+.bt{
+    background-color: #17C2A4;
+    margin-top: 50px;
+}
+#About{
+    width: 100%;
+    float: left;
+    background-color: #D74680;
+}
+.About-Writing-Part{
+    width: 100%;
+    float: left;
+}
+.About-Box-Part{
+    width:100%;
+    float: left;
+}
+.About-Box-1{
+    width:50%;
+    float:left;
+}
+.About-Box-1{
+    width:50%;
+    float:left;
+}
+
+.About-Box-2{
+    width:50%;
+    float:left;
+}
+.About-Box-2{
+    width:50%;
+    float:left;
+}
+#get{
+    width: 100%;
+    float: left;
+    background-color: #3C5499;
+    color:#fff
+}
+input{
+    background-color: #273A71;
+    color:#fff;
+    margin: 5px;
+    padding: 5px;
+}
+textarea{
+    background-color: #273A71 ;
+    color:#fff;
+}
+button{
+    background-color: aqua;
+    color: #fff;
+    padding: 5px;
+}
+.footer-container{
+    width: 100%;
+    float: left;
+    background-color:#273c7c ;
+    padding: 20px;
+    
+}
+ ul{
+    margin: 0px 10px;
+    text-align: center;
+    
+     
+}
+ li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ a {
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    
+  }
